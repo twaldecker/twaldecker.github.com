@@ -2,9 +2,8 @@
 layout: default
 permalink: /
 ---
+<h1>Blog</h1>
 <ul>
-{{site.posts}}
-
 {% for post in site.posts %}
   <li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
