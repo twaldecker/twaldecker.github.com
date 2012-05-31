@@ -2,10 +2,8 @@
 layout: page
 ---
 
-<p>
-This is the index page.
-</p>
+Content:
 
 {% for post in site.posts %}
-  {{post.title}}
+  [{{post.title}}]{{{post.url}}}
 {% endfor %}
