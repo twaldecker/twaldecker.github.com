@@ -4,8 +4,9 @@ permalink: /
 ---
 <h1>Blog</h1>
 {% for post in site.posts %}
-<h1><a href="{{post.url}}">{{post.title}}</a></h1>
 <div>
+<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+{{post.date}}
 {{post.content}}
 </div>
 {% endfor %}
