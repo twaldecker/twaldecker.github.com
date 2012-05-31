@@ -1,21 +1,5 @@
----
-links:
-  index:
-    text: index
-    url: /
-  
-  projects:
-    text: projects
-    url: /projects.html
-
-  about:
-    text: about
-    url: /about.html
----
-
-
 <ul id="menu">
-{% for link in links %}
+{% for link in site.links %}
   {% assign active = nil %}
   {% if page.url == link.url %}
     {% assign active = 'active' %}
