@@ -1,3 +1,16 @@
 body {
   font: 13px Helvetica,Arial,freesans,clean,sans-serif;
 }
+
+#menu {
+
+}
+
+#menu li{
+  display:block;
+  float:left;
+}
+
+#menu li .active {
+  border-top: solid 3px green;
+}
