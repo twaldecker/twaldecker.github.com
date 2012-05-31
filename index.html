@@ -6,4 +6,6 @@ layout: page
 This is the index page.
 </p>
 
-{{paginator.posts}}
+{% for post in site.posts %}
+  {{post.title}}
+{% endfor %}
