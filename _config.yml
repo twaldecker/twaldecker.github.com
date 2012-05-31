@@ -1,0 +1,12 @@
+links:
+  index:
+    text: index
+    url: /
+  
+  projects:
+    text: projects
+    url: /projects.html
+
+  about:
+    text: about
+    url: /about.html
