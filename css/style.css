@@ -1,16 +1,20 @@
 body {
-  font: 13px Helvetica,Arial,freesans,clean,sans-serif;
+    font: 13px Helvetica,Arial,freesans,clean,sans-serif;
 }
-
+#menu a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
 #menu {
-
+    height: 30px;
+    margin: 0;
+    padding-left: 40px;
 }
-
-#menu li{
-  display:block;
-  float:left;
+#menu li {
+    display: block;
+    float: left;
 }
-
 #menu li .active {
-  border-top: solid 3px green;
+    border-top: 3px solid green;
 }
