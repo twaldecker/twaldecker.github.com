@@ -1,12 +1,9 @@
 links:
-  index:
-    text: index
-    url: /
+- text: index
+  url: /
   
-  projects:
-    text: projects
-    url: /projects.html
+- text: projects
+  url: /projects.html
 
-  about:
-    text: about
-    url: /about.html
+- text: about
+  url: /about.html
