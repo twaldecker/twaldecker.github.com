@@ -1,9 +1,7 @@
 links:
 - text: index
   url: /
-  
 - text: projects
   url: /projects.html
-
 - text: about
   url: /about.html
