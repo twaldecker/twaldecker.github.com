@@ -1,5 +1,25 @@
+---
+links:
+  index:
+    text: index
+    url: /
+  
+  projects:
+    text: projects
+    url: /projects.html
+
+  about:
+    text: about
+    url: /about.html
+---
+
+
 <ul id="menu">
-<li><a href="/">index</a></li>
-<li><a href="">projects</a></li>
-<li><a href="/about.html">about</a></li>
+{% for link in links %}
+  {% assign active = nil %}
+  {% if page.url == link.url %}
+    {% assign active = 'active' %}
+  {% endif %}
+  <li><a href="{{link.url}}" class="{{active}}">{{link.text}}</a>
+{% endfor %}
 </ul>
