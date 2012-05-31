@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-
-jekyll default layout per configuration?
-========================================
-
 By now I have to type
 
     ---
