@@ -1,3 +1,7 @@
+---
+layout: default.html
+---
+
 First Post
 ==========
 
