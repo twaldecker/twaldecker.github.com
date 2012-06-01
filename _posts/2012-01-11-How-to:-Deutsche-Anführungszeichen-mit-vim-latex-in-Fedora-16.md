@@ -1,3 +1,6 @@
+---
+layout: default
+---
 vim-latex installieren:
 
     % sudo yum install vim-latex

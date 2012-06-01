@@ -1,3 +1,6 @@
+---
+layout: default
+---
 I had to install Windows 7 Home Premium on a Laptop where the DVD drive doesn't work. I ordered DVDs, and realized it doesn't boot.
 
 After creating a .iso image of the DVD I realized the [Windows USB tool](http://emea.microsoftstore.com/DE/de-DE/Service-Center/Windows-7-USB-DVD-Download-Tool) isn't accepting custom .iso images, just the ordered from the windows shop.

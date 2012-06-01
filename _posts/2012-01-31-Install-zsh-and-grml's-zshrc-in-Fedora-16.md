@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Install zsh:
 
     sudo yum install zsh

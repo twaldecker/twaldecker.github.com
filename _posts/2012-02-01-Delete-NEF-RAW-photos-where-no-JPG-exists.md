@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Sometimes I shoot my pictures with Nikons NEF/RAW format but keep also shooting JPEGs. To sort bad pictures out I only view the JPG and delete them if I don't like them. After this process I end up with sometimes very much NEF/RAW images which I don't want.
 
 To delete the unwanted NEF/RAW files you could probably just find them in the file explorer and delete them.

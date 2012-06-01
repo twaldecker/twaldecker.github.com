@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Just figured out how a long missed feature can be configured on fedora16: the scrolling with the middle mouse button and the trackpoint.
 
 I liked this very much and couldn't figure it out how to do it.

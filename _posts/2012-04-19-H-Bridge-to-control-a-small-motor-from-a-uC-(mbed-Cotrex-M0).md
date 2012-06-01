@@ -1,3 +1,6 @@
+---
+layout: default
+---
 This time I am sharing a simple design for a H-Bridge with used parts and an mbed ARM Cortex-M0 controller.
 
 I had a bit difficulties to control the PNP transistors with the controller. The deal was to lift the voltage for the base of the PNP.

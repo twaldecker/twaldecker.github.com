@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Why is there a 100 MB partition on my Windows system? Don't know, I deleted it. It wasn't a good idea. This is a short note how I rescued my system.
 
 mark the partition where windows 7 is installed as active:
