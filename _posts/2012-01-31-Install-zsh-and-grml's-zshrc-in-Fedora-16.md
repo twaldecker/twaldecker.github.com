@@ -3,15 +3,20 @@ layout: default
 ---
 Install zsh:
 
-    sudo yum install zsh
+{% highlight sh %}
+sudo yum install zsh
+{% endhighlight %}
 
-Grab grml`s zshrc and save it to ``/etc/zshrc``.
+Grab grml's zshrc and save it to `/etc/zshrc`.
+{% highlight sh %}
+sudo wget -O /etc/zshrc "http://git.grml.org/?p=grml-etc-core.git;a=blob_plain;f=etc/zsh/zshrc;hb=HEAD"
+{% endhighlight %}
 
-    sudo wget -O /etc/zshrc "http://git.grml.org/?p=grml-etc-core.git;a=blob_plain;f=etc/zsh/zshrc;hb=HEAD"
+Edit `/etc/passwd` and choose `/etc/zsh` as your shell:
 
-Edit ``/etc/passwd`` and choose ``/etc/zsh`` as your shell:
-
-    vi /etc/passwd
+{% highlight sh %}
+vi /etc/passwd
+{% endhighlight %}
 
 Change the line containing your Username:
 

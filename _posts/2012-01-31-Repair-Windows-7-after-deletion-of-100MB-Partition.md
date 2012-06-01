@@ -8,4 +8,4 @@ http://www.sevenforums.com/tutorials/71432-partition-mark-active.html
 
 Go in the repair mode and answer ok ;-)
 
-Don`t know how it worked particularly, it was just a note I found and thougt I could share it ;-)
+Don't know how it worked particularly, it was just a note I found and thougt I could share it ;-)
