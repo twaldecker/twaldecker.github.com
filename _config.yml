@@ -5,3 +5,21 @@ links:
   url: /projects.html
 - text: about
   url: /about.html
+  
+profiles:
+- name: flickr
+  url: http://flickr.com/twaldecker
+- name: osm
+  url: http://www.openstreetmap.org/user/twaldecker
+- name: xda
+  url: http://forum.xda-developers.com/member.php?u=1779928
+- name: facebook
+  url: http://www.facebook.com/twaldecker
+- name: github
+  url: https://github.com/twaldecker
+- name: stackoverflow
+  url: http://stackoverflow.com/users/605586/thomas
+- name: xing
+  url: http://xing.com
+- name: google-plus
+  url: https://plus.google.com/u/0/116498663832985509583

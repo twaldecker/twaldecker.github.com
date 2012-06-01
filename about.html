@@ -9,21 +9,14 @@ title: about
   <a href="mailto:thomas.waldecker@googlemail.com">thomas.waldecker@googlemail.com</a>
 </p>
 
-<p>
 <ul id="profiles">
-  <li><a href="http://flickr.com/twaldecker"><img src="/assets/icon/32/flickr.png" /></a></li>
-  <li><a href="http://www.openstreetmap.org/user/twaldecker"><img src="/assets/icon/32/osm.png" /></a></li>
-  <li><a href="http://forum.xda-developers.com/member.php?u=1779928"><img src="/assets/icon/32/xda.png" /></a></li>
-  <li><a href="http://www.facebook.com/twaldecker"><img src="/assets/icon/32/facebook.png" /></a></li>
-  <li><a href="https://github.com/twaldecker"><img src="/assets/icon/32/github.png" /></a></li>
-  <li><a href="http://stackoverflow.com/users/605586/thomas"><img src="/assets/icon/32/stackoverflow.png" /></a></li>
-  <li><a href="http://xing.com"><img src="/assets/icon/32/xing.png" /></a></li>
-  <li><a href="https://plus.google.com/u/0/116498663832985509583"><img src="/assets/icon/32/google-plus.png" /></a></li>
+{% for i in site.profiles %}
+  <li><a href="{{ i.url }}"><img src="/assets/icon/32/{{ i.name }}.png" alt="{{ i.name }} icon" /></a></li>
+{% endfor %}
 </ul>
-</p>
+<div style="clear:left;"></div>
 
 <h2>Credits</h2>
-<p>
 Icons:<br />
 <ul>
   <li>xda icon: http://arrioch.deviantart.com/gallery/24417142#/d3fwg7z</li>
@@ -32,4 +25,3 @@ Icons:<br />
 </ul>
 Website:<br />
 Hosted on GitHub pages with jekyll engine.
-</p>
