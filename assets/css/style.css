@@ -1,0 +1,45 @@
+body {
+    font: 13px Helvetica,Arial,freesans,clean,sans-serif;
+}
+#menu a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #03b;
+}
+#menu {
+    height: 30px;
+    margin: 0;
+    padding-left: 40px;
+}
+#menu li {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+#menu li .active {
+    border-top: 3px solid green;
+}
+
+.post h1 a{
+  text-decoration: none;
+  color: black;
+}
+.post h1 a:hover{
+  text-decoration: underline;
+}
+.post .date {
+  font-size: 80%;
+}
+
+ul#profiles {
+height: 32px;
+padding: 0px;
+}
+ul#profiles li {
+  display:block;
+  margin-right: 15px;
+  float:left;
+}
