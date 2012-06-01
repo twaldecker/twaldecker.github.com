@@ -14,7 +14,7 @@ Here a picture of the breadboard prototype:
 
 To control the motor with the mbed you can write a program based on the following source:
 
-{% highlight C %}
+{% highlight c %}
 #include "mbed.h"
 
 DigitalOut a(p17);
