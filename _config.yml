@@ -23,3 +23,5 @@ profiles:
   url: http://xing.com
 - name: google-plus
   url: https://plus.google.com/u/0/116498663832985509583
+- name: delicious
+  url: http://delicious.com/twaldecker
