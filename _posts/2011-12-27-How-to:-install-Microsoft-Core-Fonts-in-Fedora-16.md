@@ -3,7 +3,7 @@ layout: default
 ---
 
 First follow this guide:
-<a href="http://corefonts.sourceforge.net/">http://corefonts.sourceforge.net/</a></p>
+<a href="http://corefonts.sourceforge.net/">http://corefonts.sourceforge.net/</a>
 
 install xfs:
 

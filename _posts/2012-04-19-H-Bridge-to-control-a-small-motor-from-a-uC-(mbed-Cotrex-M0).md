@@ -49,14 +49,14 @@ void stop() {
 
 int main() {
     while(1) {
-    rechts();
-    wait(0.2);
-    stop();
-    wait(0.1);
-    links();
-    wait(0.2);
-    stop();
-    wait(3);
+        rechts();
+        wait(0.2);
+        stop();
+        wait(0.1);
+        links();
+        wait(0.2);
+        stop();
+        wait(3);
     }
 }
 {% endhighlight %}
