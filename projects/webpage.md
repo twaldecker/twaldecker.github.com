@@ -11,15 +11,16 @@ Statical webpages are nice. You just need some trivial webspace. But manage stat
 
 This is the gap jekyll fills. You can build your site with a predefined direcotry structure, specific tags and directives which are processed one-time with a parsing engine and produce simple html files.
 
-Most time when using static html files you are using a webhoster with a FTP account. Thats just a pain to use. You need to copy and paste your files from and to the server and keep a separate backup. Thats where github and git joins the game. Git is a distributed version control system and github is a social network for coders which is hosting git repositories.
+Most time when using static html files you are using a webhoster with a FTP account. You need to copy and paste your files from and to the server and keep a separate backup. A error prone task. Thats where github and git joins the game. Git is a distributed version control system and github is a social network for coders which is hosting git repositories.
 
-With github pages it offers a service for free to host your website which you can control with git and process with jekyll.
+With github pages it offers a service to host your website for free which you can control with git and process with jekyll.
 
 This is a very programmerfriendly way to create easy to manage webpages.
 
 To simplify the css stylesheets with inheritance I used sass. I tried to keep the code of the "application" as simple as possible. 
 
 The LOC (lines of code) of the static parts of the website is 105 (as of Jun 9, 2012):
+
 {% highlight sh %}
 thomas@thinky ~/dev/pages (git)-[master] % cat about.md _config.yml index.html projects.md _layouts/default.html _includes/menu.html | wc -l 
 105
