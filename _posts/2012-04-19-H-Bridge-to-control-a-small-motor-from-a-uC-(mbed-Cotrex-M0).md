@@ -9,11 +9,11 @@ My design is based on used parts out of old cheap 5.1 dvd / audio combination an
 
 Not so much text, here is the schematic:
 
-![](/assets/img/posts/mbed-h-bridge/schematic.jpg)
+<a href="/assets/img/posts/mbed-h-bridge/schematic.jpg" rel="lightbox"><img src="/assets/img/posts/mbed-h-bridge/schematic-s.jpg" alt="thumbnail" /></a>
 
 Here a picture of the breadboard prototype:
 
-![](/assets/img/posts/mbed-h-bridge/breadboard.jpg)
+<a href="/assets/img/posts/mbed-h-bridge/breadboard.jpg" rel="lightbox"><img src="/assets/img/posts/mbed-h-bridge/breadboard-s.jpg" alt="thumbnail" /></a>
 
 To control the motor with the mbed you can write a program based on the following source:
 
