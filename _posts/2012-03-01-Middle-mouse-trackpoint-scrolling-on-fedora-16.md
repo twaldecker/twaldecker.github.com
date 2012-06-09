@@ -11,4 +11,5 @@ Here is a short note:
 
 And configure following in the GUI.
 
-![](/assets/img/posts/trackpoint-scrolling-gpointing.png)
+<a href="/assets/img/posts/trackpoint-scrolling-gpointing.png" rel="lightbox"><img src="/assets/img/posts/trackpoint-scrolling-gpointing-s.png" alt="thumbnail" /></a>
+
