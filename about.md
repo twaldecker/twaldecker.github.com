@@ -25,4 +25,4 @@ Icons:<br />
 
 
 Website:<br />
-Hosted on GitHub pages with jekyll engine. The source is available on <a href="https://github.com/twaldecker/twaldecker.github.com">GitHub</a>.
+Hosted on [GitHub pages](http://pages.github.com/) with [jekyll](http://jekyllrb.com/) engine and [sass](http://sass-lang.com/). The source is available on <a href="https://github.com/twaldecker/twaldecker.github.com">GitHub</a>. More about the webpage in <a href="/projects/webpage.html">projects/webpage</a>.
