@@ -2,7 +2,7 @@
 layout: default
 ---
 
-In our current c++ program we used getopt for the argument processing. Compiling the program with Fedora16 was no problem. Today the code didn`t compile with Fedora17. The error was
+In our current c++ program we used getopt for the argument processing. Compiling the program with Fedora16 was no problem. Today the code didn't compile with Fedora17. The error was
 
 {% highlight sh %}
 thomas@thinky ~/FH/cs/3/cg/pr/3/Debug (git)-[master] % make
@@ -21,4 +21,4 @@ getopt is not in cstdlib anymore. The includes are extended with getopt.
 {% highlight c %}
 #include <cstdlib>
 #include <getopt.h>
-{% endhighlight %
+{% endhighlight %}
