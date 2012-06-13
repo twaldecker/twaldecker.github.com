@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Fedora17 getopt not in cstdlib
 ---
 
 In our current c++ program we used getopt for the argument processing. Compiling the program with Fedora16 was no problem. Today the code didn't compile with Fedora17. The error was
