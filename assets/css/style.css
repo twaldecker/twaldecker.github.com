@@ -19,14 +19,16 @@ body {
     float: left;
     padding-top: 3px; }
 
-h1 {
-  margin: 0.5em 0; }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+  font-family: 'Lato', sans-serif; }
 
 p {
   margin: 0.3em 0; }
 
 .post h1 a {
   text-decoration: none;
+  font-size: 70%;
   color: black; }
   .post h1 a:hover {
     text-decoration: underline; }
@@ -40,6 +42,9 @@ ul#profiles {
     display: block;
     margin-right: 15px;
     float: left; }
+
+code {
+  font: 90% 'Droid Sans Mono', sans-serif; }
 
 .highlight {
   background: #f8f8f8;
