@@ -1,14 +1,15 @@
 body {
-    font: 13px Helvetica,Arial,freesans,clean,sans-serif;
+    font: 1em Helvetica,Arial,freesans,clean,sans-serif;
+    margin-top:0px;
 }
 #menu {
-  height: 30px;
+  height: 4em;
   margin: 0;
-  padding-left: 40px;
+  padding-left: 3em;
 
   a {
     color: black;
-    padding: 5px;
+    padding: 0 1em;
     text-decoration: none;
     
     &:hover { color: #03b; }
@@ -18,8 +19,15 @@ body {
   li {
     display: block;
     float: left;
-    margin-left: 10px;
+    padding-top: 3px;
   }
+}
+
+h1 {
+    margin: 0.5em 0;
+}
+p {
+    margin: 0.3em 0;
 }
 
 .post {
@@ -30,8 +38,8 @@ body {
     &:hover {text-decoration: underline;}
   }
   
-  .post .date {
-    font-size: 80%;
+  .date {
+    font-size: 0.8em;
   }
 }
   

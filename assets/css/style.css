@@ -1,13 +1,14 @@
 body {
-  font: 13px Helvetica,Arial,freesans,clean,sans-serif; }
+  font: 1em Helvetica,Arial,freesans,clean,sans-serif;
+  margin-top: 0px; }
 
 #menu {
-  height: 30px;
+  height: 4em;
   margin: 0;
-  padding-left: 40px; }
+  padding-left: 3em; }
   #menu a {
     color: black;
-    padding: 5px;
+    padding: 0 1em;
     text-decoration: none; }
     #menu a:hover {
       color: #03b; }
@@ -16,15 +17,21 @@ body {
   #menu li {
     display: block;
     float: left;
-    margin-left: 10px; }
+    padding-top: 3px; }
+
+h1 {
+  margin: 0.5em 0; }
+
+p {
+  margin: 0.3em 0; }
 
 .post h1 a {
   text-decoration: none;
   color: black; }
   .post h1 a:hover {
     text-decoration: underline; }
-.post .post .date {
-  font-size: 80%; }
+.post .date {
+  font-size: 0.8em; }
 
 ul#profiles {
   height: 32px;
