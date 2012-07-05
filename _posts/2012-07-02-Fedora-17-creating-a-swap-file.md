@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fedora17: creating a swap file
+title: "Fedora17: creating a swap file"
 ---
 
 create the virtual swap disk:
