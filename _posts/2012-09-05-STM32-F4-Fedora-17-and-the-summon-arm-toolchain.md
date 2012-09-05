@@ -1,6 +1,6 @@
 ---
 layout: default
-Using the summon-arm-toolchain on Fedora 17 and the STM32F4 Cortex-M4
+title: Using the summon-arm-toolchain on Fedora 17 and the STM32F4 Cortex-M4
 ---
 
 ## Prerequisites:
