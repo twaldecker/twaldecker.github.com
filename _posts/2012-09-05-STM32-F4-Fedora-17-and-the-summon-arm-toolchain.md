@@ -3,15 +3,16 @@ layout: default
 title: Using the summon-arm-toolchain on Fedora 17 and the STM32F4 Cortex-M4
 ---
 
+Follow the guide at https://github.com/esden/summon-arm-toolchain.git
+
 ## Prerequisites:
 This is just a list of packages I had to install on my system.
 
 {% highlight sh %}
 sudo yum install libusb1 libusb1-devel automake libftdi libftdi-devel zlib-devel flex bison ncurses-devel libmpc-devel autoconf texinfo patch
+{% endhighlight %}
 
-
-Follow the guide at https://github.com/esden/summon-arm-toolchain.git
-
+{% highlight sh %}
 git clone https://github.com/esden/summon-arm-toolchain.git
 cd summon-arm-toolchain
 ./summon-arm-toolchain
