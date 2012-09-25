@@ -7,4 +7,4 @@ I needed to send raw ethernet frames in linux and found a [C program from Austin
 
 However it was not possible to specify the target MAC address, so I added this feature in a gist fork:
 
-<script src="https://gist.github.com/3765522.js?file=sendRawEth.c"></script>
+[https://gist.github.com/3765522#file_send_raw_eth.c](https://gist.github.com/3765522#file_send_raw_eth.c)
